@@ -6,4 +6,4 @@ for i in range(1,len(arr)):
         count += 1
     if i > 2 and arr[i-1] + arr[i-2] + arr[i-3] < arr[i] + arr[i-1] + arr[i-2]:
         count2 += 1
-print(count, count2)
+print(f'{count} \n {count2}')
